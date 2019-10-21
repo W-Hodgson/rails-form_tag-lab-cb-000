@@ -7,7 +7,7 @@
   <body>
     <h3>Student Form</h3>
     <%= form_tag new_student_path do %>
-      <%= text_field_tag%>
+      <%= text_field_tag :'student[first_name]'%>
     <% end %>
   </body>
 </html>
